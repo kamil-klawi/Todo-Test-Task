@@ -1,0 +1,23 @@
+@use "../../styles/variables/colors" as c;
+
+.form-edit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .form-edit-input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: c.$light-gray-color;
+  }
+
+  .form-edit-btn {
+    width: 60%;
+    padding: 1rem;
+    margin-left: 4rem;
+    background-color: c.$dark-color;
+    color: c.$light-color;
+  }
+}

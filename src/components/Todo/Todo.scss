@@ -1,0 +1,8 @@
+@use "../../styles/variables/colors" as c;
+
+.wrapper {
+  width: 50%;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: c.$light-gray-color;
+}
